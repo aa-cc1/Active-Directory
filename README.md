@@ -3,8 +3,8 @@
 <img src="active directory.png"/>
 </p>
 
-<h1>Virtual Private Network (VPN)</h1>
-In this project, we will setup our own VPN and observe its usage.
+<h1>Active Directory </h1>
+In this project, we will observe Windows Active Directory.
 
 <h2>Video Demonstration</h2>
 
