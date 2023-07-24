@@ -1,4 +1,3 @@
-# Active-Directory
 #
 <p align="center">
 <img src="active directory.png"/>
