@@ -1,7 +1,7 @@
 # Active-Directory
 #
 <p align="center">
-<img src="Proton VPN.png"/>
+<img src="active directory.png"/>
 </p>
 
 <h1>Virtual Private Network (VPN)</h1>
