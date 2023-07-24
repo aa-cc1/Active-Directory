@@ -3,7 +3,7 @@
 <img src="active directory.png"/>
 </p>
 
-<h1>Active Directory </h1>
+<h1>On-premises Active Directory Deployed in the Cloud (Azure) </h1>
 In this project, we will observe Windows Active Directory.
 
 <h2>Video Demonstration</h2>
