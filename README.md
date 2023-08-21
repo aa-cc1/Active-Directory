@@ -3,12 +3,8 @@
 <img src="active directory.png"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure) </h1>
+<h1>On-premises Active Directory Deployed in Azure </h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,7 +19,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
+<h2>Steps Taken</h2>
 
 - Step 1
 - Step 2
