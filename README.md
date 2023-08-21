@@ -47,9 +47,10 @@ To confirm that both VMs on the same network, view the _topology_ in Network Wat
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We need to ensure that there is connectivity between the Client and Domain Controller, by iniating a ping request. If the ping _request timed-out_ check the Indbound Rules for the Domain Controller Firewall to see if ICMP requests are enabled.
+We need to ensure that there is connectivity between the Client and Domain Controller, by iniating a ping request. If the ping request timed-out check the Indbound Rules for the Domain Controller Firewall to see if ICMP requests are enabled.
   
-</p>
-<br />  
+</p>  
+
+
 
 
