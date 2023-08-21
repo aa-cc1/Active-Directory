@@ -17,14 +17,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows Server 2022
 
 <h2>Steps Taken</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create two VMs (Domain Controller on the server / Windows 10)
+- Ensure Connectivity between both VMs
+- Install Active Directory (AD)
+- Create Administrator and User Account
+-
+-
 
 <h2>Actions and Observations</h2>
 
