@@ -25,8 +25,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Ensure Connectivity between both VMs
 - Install Active Directory (AD)
 - Create Administrator and User Account
--
--
 
 <h2>Actions and Observations</h2>
 
