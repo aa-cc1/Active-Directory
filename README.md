@@ -19,27 +19,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 - Windows Server 2022
 
-<h2>Steps Taken</h2>
+<h2>Key Objectives</h2>
 
 - Create two VMs (Domain Controller on the server / Windows 10)
 - Ensure Connectivity between both VMs
 - Install Active Directory (AD)
-- Create Administrator and User Account
+- Create an Administrator and User Accounts
 - Login with Admin/User Account to verify setup
 
 <h2>Actions and Observations</h2>
 
 <p>
-Within AZure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet).        
+1. Within AZure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet).        
 <img src="Resources.png"/>
 
     
-***Client-1*** is running Windows 10 and the ***Domain Controller*** is running Windows Server 2022, where its iP address is set to static.    
+**2.** ***Client-1*** is running Windows 10 and the ***Domain Controller*** is running Windows Server 2022, where its iP address is set to static.    
 <img src="DC Static IP.png"/>
 
 
-To confirm that both VMs on the same network, view the _topology_ in Network Watcher. 
-<img src="vNET Topology.png"/>
+**3.** To confirm that both VMs on the same network, view the _topology_ in Network Watcher. 
+<img src="vNet Topology.png"/>
 </p>
 <br />
 
