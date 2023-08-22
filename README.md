@@ -29,8 +29,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Actions and Observations</h2>
 
-<p>
-1. Within AZure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet).        
+
+
+**1.** Within AZure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet). To confirm that both VMs on the same network, view the _topology_ in Network Watcher.        
 <img src="Resources.png"/>
 
     
@@ -38,18 +39,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="DC Static IP.png"/>
 
 
-**3.** To confirm that both VMs on the same network, view the _topology_ in Network Watcher. 
-<img src="vNet Topology.png"/>
-</p>
-<br />
+**3.** Ensure that there is connectivity between the Client and Domain Controller. Remote Desktop into Client-1 and iniate a ping request to the Domain Controller.  _If the ping request timed-out check the Indbound Rules for the Domain Controller Firewall to see if ICMP requests are enabled._
+<img src="PP to DC.png"/> <img src="ICMP Enable.png"/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-We need to ensure that there is connectivity between the Client and Domain Controller, by iniating a ping request. If the ping request timed-out check the Indbound Rules for the Domain Controller Firewall to see if ICMP requests are enabled.
-  
-</p>  
+**4.**
+
+**5.**
+
+**6.**
+
+    
 
 
 
