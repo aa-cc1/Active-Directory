@@ -25,6 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Ensure Connectivity between both VMs
 - Install Active Directory (AD)
 - Create Administrator and User Account
+- Login with Admin/User Account to verify setup
 
 <h2>Actions and Observations</h2>
 
@@ -33,7 +34,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 Within AZure, we created a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet). 
-  
+img src="Resources.png"  
+
+    
 ***Client-1*** is running Windows 10 and the ***Domain Controller*** is running Windows Server 2022, where its iP address is set to static.  
 
 
