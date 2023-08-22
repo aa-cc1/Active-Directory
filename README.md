@@ -30,19 +30,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Within AZure, we created a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet). 
-img src="Resources.png"  
+Within AZure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet).        
+<img src="Resources.png"/>
 
     
-***Client-1*** is running Windows 10 and the ***Domain Controller*** is running Windows Server 2022, where its iP address is set to static.  
-
+***Client-1*** is running Windows 10 and the ***Domain Controller*** is running Windows Server 2022, where its iP address is set to static.    
+<img src="DC Static IP.png"/>
 
 
 To confirm that both VMs on the same network, view the _topology_ in Network Watcher. 
-
+<img src="vNET Topology.png"/>
 </p>
 <br />
 
