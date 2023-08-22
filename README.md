@@ -39,7 +39,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="DC Static IP.png"/>
 
 
-**3.** Ensure that there is connectivity between the Client and Domain Controller. Remote Desktop into Client-1 and iniate a ping request to the Domain Controller.  _If the ping request timed-out check the Indbound Rules for the Domain Controller Firewall to see if ICMP requests are enabled._
+**3.** Ensure that there is connectivity between the Client and Domain Controller. Remote Desktop into Client-1 and iniate a ping request to the Domain Controller.  If the ping _request timed-out_ check the Indbound Rules for the Domain Controller Firewall to see if ICMP requests are enabled.    
+
 <img src="PP to DC.png"/> <img src="ICMP Enable.png"/>
 
 **4.**
