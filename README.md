@@ -42,6 +42,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="PP to DC.png"/> <img src="ICMPallow.png"/>
 
 
+
     
 
 
