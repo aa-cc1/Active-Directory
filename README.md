@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 # Create Resources
 
-**1.** Within AZure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet). To confirm that both VMs on the same network, view the _topology_ in Network Watcher.        
+**1.** Within Azure, create a Resource Group (RG) that has two Virtual Machines (VMs) on the same network, or Virtual Netowrk (vNet). To confirm that both VMs on the same network, view the _topology_ in Network Watcher.        
 <img src="Resources.png"/>
 
     
