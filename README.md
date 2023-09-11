@@ -12,6 +12,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
+- Network Commands (ping, ipconfig)
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
@@ -72,7 +73,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 # Join Client-1 to Domain
 
-**9.** From the Azure Portal, set Client-1’s DNS settings to the Domain Controller’s Private IP address. Restart Client-1 and Remote Desktop in  with the Admin Login credentials. Verify the DNS changes by running _ipconfig/all_ .
+**9.** From the Azure Portal, **set Client-1’s DNS settings** to the Domain Controller’s **Private IP address.** Restart Client-1 and Remote Desktop in  with the Admin Login credentials. Verify the DNS changes by running _ipconfig/all_ .
 <img src="Client 1 DNS to DC DNS.png"/> 
 
 
