@@ -67,13 +67,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="Screenshot (132).png"/> <img src="Screenshot (133).png"/> <img src="Screenshot (134).png"/> 
 
 **8.** Log out of the Domain Controller and remote back in using the credentials created for **Haribo Gummy**.    
+<img src="Screenshot (135).png"/> <img src="Screenshot (139).png"/> 
+
+
+# Join Client-1 to Domain
+
+**9.** From the Azure Portal, set Client-1’s DNS settings to the Domain Controller’s Private IP address. Restart Client-1. 
 <img src="Screenshot (135).png"/> 
 
 
-**9.**
 
-
-**10.**    
+**10.** Remote Desktop into Client-1 with the Admin Login credentials and join it to the domain.  
 
 
 **11.**    
