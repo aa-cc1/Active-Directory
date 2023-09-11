@@ -60,7 +60,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 **6.** Within Active Directory create two Organizational Groups: Employees and Admins.
 
 
-**7** Create a new user and add them to the _Admin Domain_ .    
+**7.** Create a new user and add them to the _Admin Domain_ .    
 **User:** Haribo Gummy    
 **Login**: haribo_admin    
 
@@ -70,10 +70,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="Screenshot (135).png"/> 
 
 
-**9**
+**9.**
 
 
-**10**    
+**10.**    
 
 
 **11.**    
