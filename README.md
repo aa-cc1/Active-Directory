@@ -42,12 +42,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="PP to DC.png"/>    
 
 
-**4.** Remote Desktop into the Domain Controller to install AD. 
-<img src=".png"/>    
+**4.** Remote Desktop into the Domain Controller to install AD by selecting _Add roles and features_ . 
+<img src="Installing AD 1.png"/>    <img src="installing AD 2.png"/>
 
 
 **5** Create a new Forest. Restart the Virtual Machine and log back in to the DC with the domain you created.
-<img src=".png"/>  
+<img src="Create Forest.png"/>  
 
 
 **6**
