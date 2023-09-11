@@ -37,15 +37,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="DC Static IP.png"/>
 
 
-**3.** Ensure that there is _connectivity_ between the Client and Domain Controller. Remote Desktop into Client-1 and iniate a ping request to the Domain Controller. In the example shown below, if the ping **_request timed-out_** check the Indbound Rules under Network Security Group for the Domain Controller to see if ICMP requests are disabled. Enable ICMP requests and retry the ping.   
+**3.** Ensure that there is _connectivity_ between the Client and Domain Controller. Remote Desktop into Client-1 and iniate a ping request to the Domain Controller. As shown the example shown below, if the ping **_request timed-out_** , the _inbound_ ICMP requests are probably disabled for the Domain Controller. To enable, go to Network Security Group, select Inbound Rules, and enable. Try pinging the Domain Controller to observe changes.
 
 <img src="PP to DC.png"/>    
 
 
-**4.**    
+**4.** Remote Desktop into the Domain Controller to install AD. 
+<img src=".png"/>    
 
 
-<img src="ICMPallow.png"/>
+**5** Create a new Forest. Restart the Virtual Machine and log back in to the DC with the domain you created.
+<img src=".png"/>  
+
+
+**6**
+
+
+
+<img src=.png""/>
 
 
 
