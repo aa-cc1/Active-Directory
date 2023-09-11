@@ -77,7 +77,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-**10.** Join Client-1 to the Domain.  
+**10.** 
 
 
 **11.**    
@@ -86,7 +86,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 **12.**
 
 
-**14.**
+**13.**
 
 # End
 
